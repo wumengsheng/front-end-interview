@@ -44,7 +44,7 @@
 `function f1() {`  
     `n = 999;`  
     `function f2() {`  
-        `alert(n);`  
+&nbsp;`alert(n);`  
     `}`  
     `return f2`  
 `}`  
@@ -52,5 +52,5 @@
 `result();//999`  
 
 ---
-<p id = "3"><b>三、闭包的概念</b></p>  
+<p id = "3"><b>三、闭包的概念</b></p>    
 
