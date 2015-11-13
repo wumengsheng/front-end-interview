@@ -44,7 +44,7 @@
 `function f1() {`  
     `n = 999;`  
     `function f2() {`  
-`&nbsp;&nbsp;&nbsp;alert(n);`  
+        `alert(n);`  
     `}`  
     `return f2`  
 `}`  
