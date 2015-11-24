@@ -17,7 +17,7 @@
   * [浏览器本地存储问题](https://github.com/wumengsheng/front-end-interview/blob/master/浏览器本地存储问题.md)  
   
 ---
-* 其他篇  
+* 综合篇  
   * 
   
 ---
