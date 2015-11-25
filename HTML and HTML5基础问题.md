@@ -37,7 +37,7 @@ HTML5的出现，对于Web来说意义重大，它意图把目前Web上存在的
 **a. 可以省略标记的元素**  
 * 元素的标记分为“不允许写结束标记”、“可以省略结束标记”、“开始标记和结束标记都可以省略”三种类型。  
 * 不允许写结束标记的元素有：area、base、br、col、command、embed、hr、img、input、keygen、link、meta、param、source、track、
-wbr；如：<br/>  
+wbr；如：`<br/>`  
 * 可以省略结束标记的元素有：li、dt、dd、p、rt、rp、optgroup、option、colgroup、thead、tbody、tfoot、tr、td、th；
 * 可以省略全部标记的元素有：html、head、body、colgroup、tbody。  
 
