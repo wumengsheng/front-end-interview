@@ -2,7 +2,9 @@
 #### 目录&步骤  
 1. [HTML5要解决的三个问题](#1)  
 2. [HTML5中的标记方法](#2)  
-3. [](#3)
+3. [HTML5的兼容性：元素标记的省略、具有boolean值的属性、引号的省略](#3)  
+4. [](#4)
+5. [](#5)
 
 ---
 <p id = "1"><H3>1. HTML5要解决的三个问题</H3></p>  
@@ -22,6 +24,31 @@ HTML5的出现，对于Web来说意义重大，它意图把目前Web上存在的
 
 <p id = "2"><H3>2. HTML5中的标记方法</H3></p>  
 **a. 内容类型（ContentType）**  
-  扩展符仍然为".html"或".htm"，内容类型（ContentType）仍然为"text/html"  
+* 扩展符仍然为".html"或".htm"，内容类型（ContentType）仍然为"text/html"  
   
 **b. DOCTYPE声明**  
+* DOCTYPE在HTML文件中必不可少，且位于文件第一行。  
+* 在HTML5中，不使用版本声明，一份文档将会适用于所有版本的HTML。声明方法如下：`<!DOCTYPE html>`（不区分大小写）。  
+
+**c. 指定字符编码**  
+* 使用<meta>元素直接追加charset属性的方式来指定字符编码：`<meta charset = "UTF-8">`  
+
+<p id = "3"><H3>3. HTML5的兼容性：元素标记的省略、具有boolean值的属性、引号的省略</H3></p>  
+**a. 可以省略标记的元素**  
+* 元素的标记分为“不允许写结束标记”、“可以省略结束标记”、“开始标记和结束标记都可以省略”三种类型。  
+* 不允许写结束标记的元素有：area、base、br、col、command、embed、hr、img、input、keygen、link、meta、param、source、track、
+wbr；如：<br/>  
+* 可以省略结束标记的元素有：li、dt、dd、p、rt、rp、optgroup、option、colgroup、thead、tbody、tfoot、tr、td、th；
+* 可以省略全部标记的元素有：html、head、body、colgroup、tbody。  
+
+**b. 具有boolean值的属性**  
+* 不使用某个属性代表属性为false：`<input type = "checkbox">`  
+* 只写属性不写属性值代表属性为true：`<input type = "checkbox" checked>`  
+* 属性值=属性名，代表属性为true：`<input type = "checkbox" checked = "checked">`  
+* 属性值=空字符串，代表属性为true：`<input type = "checkbox" checked = " ">`  
+
+**3. 省略引号**  
+* 属性值两边可以使用双引号和单引号；  
+* 当属性值不包含空字符串、`<`、`>`、`=`、单引号、双引号等字符时，属性值两边的引号可以省略。  
+
+<p id = "4"><H3>4. </H3></p>
