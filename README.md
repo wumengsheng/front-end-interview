@@ -23,4 +23,5 @@
   
 ---
 #### 转载  
-* [Front-end-Interview-questions](https://github.com/wumengsheng/Front-end-Interview-questions)
+* [Front-end-Interview-questions](https://github.com/wumengsheng/Front-end-Interview-questions)  
+* [Front-end-Interview-questions-two](https://github.com/hawx1993/Front-end-Interview-questions/blob/master/README.md)
